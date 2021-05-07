@@ -8,13 +8,15 @@
 </template>
 
 <script>
-import { VanRadioGroup, VanRadio } from 'vant'
-console.log('11111111111111', VanRadioGroup, VanRadio)
+import Vue from 'vue';
+import { RadioGroup, Radio } from 'vant'
+Vue.use(Radio)
+Vue.use(RadioGroup)
 export default {
-  name: "radio",
+  // name: "radio",
   components: {
-    VanRadioGroup,
-    VanRadio
+    // RadioGroup,
+    // Radio
   },
   data() {
       return {
