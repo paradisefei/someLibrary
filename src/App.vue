@@ -1,28 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <my-canvas></my-canvas> -->
+    <!-- <my-echarts></my-echarts> -->
+    <my-vant></my-vant>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import MyCanvas from './components/canvas/index'
+// import MyECharts from './components/echarts'
+import MyVant from './components/vant'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // MyCanvas,
+    // MyECharts
+    MyVant
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
