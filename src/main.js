@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import { DatePicker } from 'element-ui'
+import { DatePicker, Table, TableColumn } from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(DatePicker)
+Vue.use(Table)
+Vue.use(TableColumn)
 
 Vue.config.productionTip = false
 
