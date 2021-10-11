@@ -4,6 +4,7 @@
     <!-- <my-echarts></my-echarts> -->
     <!-- <my-vant></my-vant> -->
     <my-element></my-element>
+    <!-- <my-loop-scroll /> -->
   </div>
 </template>
 
@@ -12,6 +13,7 @@
 // import MyECharts from './components/echarts'
 // import MyVant from './components/vant'
 import MyElement from './components/element-ui'
+// import MyLoopScroll from './components/loop-scroll/index.vue'
 export default {
   name: 'App',
   components: {
@@ -19,6 +21,7 @@ export default {
     // MyECharts
     // MyVant,
     MyElement
+    // MyLoopScroll
   }
 }
 </script>
