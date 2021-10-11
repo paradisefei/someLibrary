@@ -1,18 +1,21 @@
 <template>
   <div class="form">
-    <my-select></my-select>
+    <my-input></my-input>
+    <!-- <my-select></my-select> -->
   </div>
 </template>
 
 <script>
-import MySelect from './5-select'
+import MyInput from './3-input'
+// import MySelect from './5-select'
 export default {
   name: 'Form',
   data() {
     return {}
   },
   components: {
-    MySelect
+    MyInput
+    // MySelect
   }
 }
 </script>
