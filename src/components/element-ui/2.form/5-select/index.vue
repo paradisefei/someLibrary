@@ -1,6 +1,9 @@
 <template>
     <div class="select">
-      <el-select v-model="value" placeholder="请选择">
+      <el-select
+        v-model="value"
+        @blur="blur"
+        placeholder="请选择">
         <el-option
           v-for="item in options"
           :key="item.value"
@@ -13,6 +16,7 @@
 </template>
 
 <script>
+// 1. 查看blur方法到底是在什么时候触发的
 export default {
   name: "Select",
   data() {
@@ -37,6 +41,9 @@ export default {
     }
   },
   methods: {
+    blur(val) {
+      console.log('blur', val)
+    }
   }
 }
 </script>

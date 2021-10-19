@@ -1,18 +1,18 @@
 <template>
   <div class="no-release">
-    <my-scroll-bar></my-scroll-bar>
+    <my-reach-bottm></my-reach-bottm>
   </div>
 </template>
 
 <script>
-import MyScrollBar from './1-scroll'
+import MyReachBottm from './1-reach-bottom-refresh'
 export default {
   name: 'NoRelease',
   data() {
     return {}
   },
   components: {
-    MyScrollBar
+    MyReachBottm
   }
 }
 </script>
